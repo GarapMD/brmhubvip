@@ -957,9 +957,8 @@ local Window = WindUI:CreateWindow({
     Icon = "monitor",
     Author = "WELCOME",
     Folder = "BremboFolder",
-    Size = UDim2.fromOffset(580, 490),
-    CornerRadius = UDim.new(1,0), -- fully rounded
-    StrokeThickness = 3, -- removing outline
+    Size = UDim2.fromOffset(480, 390),
+    CornerRadius = UDim.new(3,0), -- fully rounded
     Transparent = true,
     Theme = "Midnight",
     
@@ -997,7 +996,7 @@ Window.User:SetAnonymous(false)
 
 
 
-Window:SetIconSize(48)
+Window:SetIconSize(38)
 
 Window:Tag({
     Title = "V1.2.3",
@@ -2754,6 +2753,7 @@ if Window:GetUnlocked() and #Window:GetUnlocked() > 0 then
     
 
 end
+
 
 
 
