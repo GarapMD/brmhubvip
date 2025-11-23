@@ -958,10 +958,10 @@ local Window = WindUI:CreateWindow({
     Author = "WELCOME",
     Folder = "BremboFolder",
     Size = UDim2.fromOffset(480, 390),
-    CornerRadius = UDim.new(3,0), -- fully rounded
+    CornerRadius = UDim.new(1,0),
+    StrokeThickness = 5,
     Transparent = true,
     Theme = "Midnight",
-    
     HidePanelBackground = false,
     NewElements = false,
     
@@ -2753,6 +2753,7 @@ if Window:GetUnlocked() and #Window:GetUnlocked() > 0 then
     
 
 end
+
 
 
 
